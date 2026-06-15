@@ -216,3 +216,12 @@ body {
     font-size: 0.8rem;
     font-style: italic;
 }
+/*survol du texte*/
+.cv__formations article:hover,
+.cv__stages article:hover,
+.cv__experiences article:hover {
+    background-color: #e3e3e3;
+    border-left: 4px solid #17abb3;
+    padding-left: 10px;
+    cursor: pointer;
+}
