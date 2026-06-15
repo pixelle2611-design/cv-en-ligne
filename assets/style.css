@@ -190,3 +190,29 @@ body {
 .cv__experiences article span {
     color: #17abb3;
 }
+/* Footer */
+.cv__footer {
+    background-color: #17abb3;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.cv__reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.cv__reseaux a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.cv__footer p {
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-style: italic;
+}
