@@ -150,3 +150,43 @@ body {
     position: absolute;
     left: 0;
 }
+/* Colonne droite */
+.cv__colonne-droite {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.cv__colonne-droite h3 {
+    font-family: 'Lato', sans-serif;
+    color: #17abb3;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* Profil */
+.cv__profil p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+/* Formations, stages, expériences */
+.cv__formations article,
+.cv__stages article,
+.cv__experiences article {
+    padding: 10px 0;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.cv__formations article p:first-child,
+.cv__stages article p:first-child,
+.cv__experiences article p:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv__formations article span,
+.cv__stages article span,
+.cv__experiences article span {
+    color: #17abb3;
+}
